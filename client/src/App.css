@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.navbar-custom{
+    background-color: #4b0082;
+}
+.slick-dots{
+    height: 56px;
+    position: relative!important;
+    bottom: -25px!important;
+  }
+  
+  .slick-dots li{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .slick-dots button{
+    background-color: #fff!important;
+    border-radius: 100%;
+    opacity: 0.4;
+  }
+  
+  .slick-dots button::before{
+    color: #fff!important;
+    opacity: 0.4;
+  }
+  
+  .slick-dots li.slick-active button{
+    opacity: 1;
+  }
+  
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+td{
+  padding: 15px;
+}
+table{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.approval{
+  width: 800px;
+  margin-top: 20px;
+  margin-left: 15%;
+
+}
+.dashboard{
+  width: 800px;
+}
+.figure img{
+  height: 100%;
+}
